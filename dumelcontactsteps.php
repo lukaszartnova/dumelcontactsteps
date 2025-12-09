@@ -65,6 +65,16 @@ class DumelContactSteps extends Module
                     'module' => $this->name,
                 ],
             ],
+
+            'module-dumelcontactsteps-prezentownik' => [
+                'controller' => 'prezentownik',
+                'rule' => 'prezentownik',
+                'keywords' => [],
+                'params' => [
+                    'fc' => 'module',
+                    'module' => $this->name,
+                ],
+            ],
         ];
     }
 }
